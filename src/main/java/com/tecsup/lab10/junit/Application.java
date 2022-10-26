@@ -8,10 +8,13 @@ public class Application {
 		int sum = app.sumar(4,5);		
 		int res = app.restar(4,5);
 	}
-	
 	public  int restar(int i, int j) {
         // TODO Auto-generated method stub
         return i-j;
+    }
+	public  int sumar(int i, int j) {
+        // TODO Auto-generated method stub
+        return i+j;
     }
 
 }
